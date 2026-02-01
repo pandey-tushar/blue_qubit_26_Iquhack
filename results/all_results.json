@@ -1,0 +1,102 @@
+{
+  "P1": {
+    "bitstring": "1001",
+    "count": 2000,
+    "total_shots": 2000,
+    "time": 0.12619591700058663,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P2": {
+    "bitstring": "11000001000100011000",
+    "count": 383,
+    "total_shots": 2000,
+    "time": 0.6416531409995514,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P3": {
+    "bitstring": "001110001111101100001101010001",
+    "count": 387,
+    "total_shots": 2000,
+    "time": 0.9921903200011002,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P4": {
+    "bitstring": "1011011000101000010011001110100001010110",
+    "count": 393,
+    "total_shots": 2000,
+    "time": 0.43044614500104217,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P5": {
+    "bitstring": "01101000100100001010101011100000010111100011111110",
+    "count": 419,
+    "total_shots": 2000,
+    "time": 0.6865461119996326,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P6": {
+    "bitstring": "101000110000100000100111100010101011101001000101100010001000",
+    "count": 1997,
+    "total_shots": 2000,
+    "time": 0.4164487320012995,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": true,
+    "approx_degree": 0.99
+  },
+  "P7": {
+    "bitstring": "0110001011111111110011110001000010011011100000",
+    "count": 746,
+    "total_shots": 2000,
+    "time": 2.652842569998029,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P8": {
+    "bitstring": "101111100101111000100010110001011101110011100011110000100111010010001010",
+    "count": 435,
+    "total_shots": 2000,
+    "time": 5.560840090998681,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P9": {
+    "bitstring": "11011000111011100000101000110001010111100100000101101110",
+    "count": 842,
+    "total_shots": 2000,
+    "time": 2.4996094970010745,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  },
+  "P10": {
+    "bitstring": "00111111100000110001010111111001011101100001100100010010",
+    "count": 200,
+    "total_shots": 2000,
+    "time": 4.305935693999345,
+    "strategy": "clifford_simp",
+    "bond_dim": 128,
+    "skip_pyzx": false,
+    "approx_degree": null
+  }
+}

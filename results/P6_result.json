@@ -1,0 +1,10 @@
+{
+  "bitstring": "101000110000100000100111100010101011101001000101100010001000",
+  "count": 1997,
+  "total_shots": 2000,
+  "time": 0.4164487320012995,
+  "strategy": "clifford_simp",
+  "bond_dim": 128,
+  "skip_pyzx": true,
+  "approx_degree": 0.99
+}
