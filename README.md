@@ -69,9 +69,15 @@ transpilation collapses it extremely well (depth ~2) and produces a very strong 
 - **`clifford_simp` vs `full_reduce`**: `clifford_simp` often produces simpler circuits and works better for P9
 - **Measure before transpile**: Critical for correct results - add measurements BEFORE Qiskit transpile
 - **PyZX extract_circuit**: Don't use `up_to_perm=False` - let PyZX handle permutations naturally
+- While there are other methods like circuit splitting that works for P5, P7, P8; this one generalizes and is much faster
 
 ## Files
 
 - `solve_circuit.py` - Main solver script
 - `run_all.py` - Batch runner for all P1-P10 circuits
 - `requirements.txt` - Python dependencies
+
+## Acknowledgement
+
+- Huge thanks to https://github.com/poig for pointing out that pyzx can simplify the circuits for faster MPS sampling
+- Also, greatly appreciate https://github.com/nadakhatab for working on the problems, and the simplifying techniques.
